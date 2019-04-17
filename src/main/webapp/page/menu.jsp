@@ -125,9 +125,12 @@
 					data-toggle="dropdown"> 统计报表<b class="caret"></b>
 				</a>
 					<ul class="dropdown-menu">
-						<li><a
-							href="<%=fule%>contract/contractExecuteMonthTotalList.web">合同执行月统计</a></li>
-						<li><a href="<%=fule%>financing/financingReport.web"">财务数据统计</a></li>
+						<li>
+							<a href="<%=fule%>contract/contractExecuteMonthTotalList.web">合同执行月统计</a>
+						</li>
+						<li>
+							<a href="<%=fule%>financing/financingReport.web"">财务数据统计</a>
+						</li>
 						<!-- 
 	                    <li><a href="#">建设资金支付统计表</a></li>
 	               	 	<li><a href="#">分局数据统计</a></li>
@@ -147,6 +150,16 @@
 						<li><a href="<%=fule%>role/roleList.web">角色管理</a></li>
 						<li><a href="<%=fule%>menu/menuList.web">菜单管理</a></li>
 					</ul></li>
+					
+				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					进度反馈 <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="<%=fule%>project/maintainList.web">工程维护</a></li>
+						<li><a href="<%=fule%>project/monthScheduList.web">工程月进度</a></li>
+						<li><a href="<%=fule%>project/DayScheduLeist.web">工程日进度</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
